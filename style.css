@@ -48,7 +48,19 @@
    
     font-weight: 500;
 }
-.navbar a:hover{
-   color: black;
-  
+
+.drowdown{
+  position: absolute;
+  background-color: #22438c;
+  width: 140px;
+  left: 0;
+}
+.navbar ul li .drowdown  li a {
+    display: none;
+   
+}
+
+
+.navbar li :hover> .dropdown{
+  display: block;
 }
