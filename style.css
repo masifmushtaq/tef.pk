@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* ============Top bar start========= */
+.top-bar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(237, 241, 241);
+ padding: 15px 25px;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 20px
+}
+
+.top-icon{
+    display: flex;
+    gap: 30px;
+  font-size: 17px;
+  justify-content: end;
+  align-items: end;
+  margin-left: 700px;
+}
+
+/* ============top bar end=========== */
+
+
+/* ==============navbar start============ */
+
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+  color: white;
+    padding: 15px 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(44, 42, 42);
+    font-size: 17px;
+   
+    font-weight: 500;
+}
+.navbar a:hover{
+   color: black;
+  
+}
