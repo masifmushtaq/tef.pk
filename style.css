@@ -156,6 +156,7 @@ nav .navbar .links li{
 }
 nav .navbar .links li a{
  font-size: 15px;
+ 
 }
 }
 @media (max-width:800px){
@@ -187,6 +188,7 @@ nav .navbar .links{
  display: block;
  margin-top: 20px;
  background:  #2291b6;
+ 
 }
 
 nav .navbar .links li{
@@ -474,58 +476,8 @@ nav ul ul li a:hover{
     position: relative;
   }
   
-  ul.top-info-box li .info-box .info-box-content {
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-    flex-direction: column;
-  }
-  
-  ul.top-info-box li .info-box .info-box-title {
-    font-size: 14px;
-    margin-bottom: 8px;
-    line-height: normal;
-  }
-  
-  ul.top-info-box li .info-box .info-box-subtitle {
-    margin: 0;
-    line-height: normal;
-    font-size: 15px;
-    font-weight: 700;
-    color: #111;
-  }
-  
-  /*-- Search start --*/
-  ul.top-info-box > li.nav-search {
-    cursor: pointer;
-    padding-left: 30px;
-    margin-left: 30px;
-  }
-  
-  ul.top-info-box > li.nav-search:before {
-    position: absolute;
-    content: '';
-    background: #ddd;
-    left: 0;
-    width: 1px;
-    height: 40px;
-    top: 50%;
-    margin-top: -10px;
-  }
-  
-  ul.top-info-box > li.nav-search i {
-    font-size: 20px;
-    top: 10px;
-    position: relative;
-    cursor: pointer;
-    color: #999;
-  }
-  
-  /* Main navigation */
-  .navbar-toggler {
-    float: left;
-    margin-top: 10px;
-    padding: 12px;
-  }
+ 
+
   
   .navbar {
     border-radius: 0;
@@ -533,22 +485,8 @@ nav ul ul li a:hover{
     margin-bottom: 0;
   }
   
-  .navbar-toggler {
-    margin: 10px 0;
-    padding: 6px;
-    border-radius: 0;
-    font-size: 1rem;
-    background: #00748c;
-  }
-  
-  .navbar-toggler:focus {
-    outline: 0;
-  }
-  
-  .navbar-dark .navbar-toggler-icon,
-  .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  }
+
+
   
   ul.navbar-nav > li:hover > a,
   ul.navbar-nav > li.active > a {
@@ -759,6 +697,24 @@ nav ul ul li a:hover{
   
   /*-- Nav Search start --*/
   /*  */
+
+
+
+  /* ===========download section start============== */
+
+
+
+
+.box a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+  /* =============downlaod section end-========== */
 
 /* ========= tef ----------=== */
  .tef{
@@ -991,7 +947,7 @@ box-shadow: #2291b6;
   }
   .footer-section ul  a:hover{
     color: white;
-    transition: all .5s;
+    
   }
   hr{
     margin: 3px;
