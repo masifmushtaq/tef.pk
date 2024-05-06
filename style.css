@@ -40,6 +40,15 @@
 
 }
 
+
+
+
+
+
+
+
+
+
 /* ============top bar end=========== */
 
 
@@ -161,7 +170,7 @@ nav .navbar .links li a{
 }
 @media (max-width:800px){
 nav{
- /* position: relative; */
+ position: relative;
  
 }
 .navbar .bx-menu{
@@ -822,6 +831,11 @@ gap: 3opx;
   width: 100%;
   height: 100%;
 
+}
+
+.section-card .card1 img :hover{
+transform: scale(1.05);
+overflow: hidden;
 }
 
   /* =========== our card end================ */
